@@ -7,4 +7,6 @@ pip install uwsgi Flask
 
 mkdir -p /opt/apps/jdb
 
-rm /etc/nginx/sites-enabled/default
+if [ -f /etc/nginx/sites-enabled/default ]; then
+  rm /etc/nginx/sites-enabled/default
+fi
