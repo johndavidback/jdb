@@ -2,7 +2,7 @@
 set -ex
 
 apt-get update
-apt-get install python-pip python-dev nginx
+apt-get install -y python-pip python-dev nginx
 pip install uwsgi Flask
 
 mkdir -p /opt/apps/jdb
