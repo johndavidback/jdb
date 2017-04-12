@@ -8,7 +8,6 @@ fi
 if [ ! -f /etc/uwsgi/sites/jdb.ini ]; then
   sudo ln -s /opt/apps/jdb/uwsgi.ini /etc/uwsgi/sites/jdb.ini
 fi
-# sudo ln -s /opt/apps/jdb/uwsgi.ini /etc/uwsgi/apps-enabled/jdb.ini
 
 sudo service nginx restart
 # sudo service uwsgi restart
