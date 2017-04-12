@@ -10,4 +10,4 @@ if [ ! -f /etc/uwsgi/sites/jdb.ini ]; then
 fi
 
 sudo service nginx restart
-# sudo service uwsgi restart
+sudo service uwsgi restart
